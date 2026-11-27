@@ -8,6 +8,7 @@ export type Veiculo = {
   preco: number
   potencia: string
   descricao: string
+  imagem: string
 }
 
 // Listagem secundária: um diferencial da loja

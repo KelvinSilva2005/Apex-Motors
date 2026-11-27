@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import type { Veiculo } from '../data/tipos'
 import { formatarPreco } from '../data/veiculos'
+import { Placa } from './Placa'
 
 type CardVeiculoProps = {
   veiculo: Veiculo
@@ -8,9 +10,27 @@ type CardVeiculoProps = {
 }
 
 export function CardVeiculo({ veiculo, aberto, onVerDetalhes }: CardVeiculoProps) {
+  // Se a foto não carregar, mostra o espaço reservado no lugar
+  const [fotoComErro, setFotoComErro] = useState(false)
+
   return (
     <article className={aberto ? 'card-veiculo card-veiculo--aberto' : 'card-veiculo'}>
-      <div className="placeholder card-veiculo__imagem">Imagem do {veiculo.nome}</div>
+      <div className="card-veiculo__imagem card-veiculo__midia">
+        {fotoComErro ? (
+          <div className="placeholder card-veiculo__substituto">Imagem do {veiculo.nome}</div>
+        ) : (
+          <img
+            src={veiculo.imagem}
+            alt={veiculo.nome}
+            className="card-veiculo__foto"
+            loading="lazy"
+            onError={() => setFotoComErro(true)}
+          />
+        )}
+
+        {/* Placa com a logo da Apex por cima da foto */}
+        <Placa />
+      </div>
 
       <div className="card-veiculo__corpo">
         <div className="card-veiculo__topo">
