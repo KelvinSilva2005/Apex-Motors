@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "nome": "Mercedes-Benz Classe S",
+    "marca": "Mercedes-Benz",
+    "categoria": "Sedã",
+    "ano": 2026,
+    "preco": 1266900,
+    "potencia": "537 cv",
+    "descricao": "Sedã de referência em conforto, com motor V8 híbrido, bancos massageadores e acabamento em couro Nappa.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz_W223_IAA_2021_1X7A0206.jpg?width=640"
+  },
+  {
+    "id": 2,
+    "nome": "Porsche 911 Carrera",
+    "marca": "Porsche",
+    "categoria": "Coupé",
+    "ano": 2026,
+    "preco": 980000,
+    "potencia": "394 cv",
+    "descricao": "O esportivo clássico de motor traseiro, com câmbio PDK de 8 marchas.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Porsche_992_Carrera_4S_Genf_2019_1Y7A5561.jpg?width=640"
+  },
+  {
+    "id": 3,
+    "nome": "Range Rover Autobiography",
+    "marca": "Land Rover",
+    "categoria": "SUV",
+    "ano": 2026,
+    "preco": 1477904,
+    "potencia": "550 cv",
+    "descricao": "SUV de luxo híbrido plug-in, com suspensão a ar, teto panorâmico e capacidade off-road.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Land_Rover_Range_Rover_Autobiography_L460_Charente_Grey_(1).jpg?width=640"
+  },
+  {
+    "id": 4,
+    "nome": "BMW i7 xDrive60",
+    "marca": "BMW",
+    "categoria": "Sedã",
+    "ano": 2023,
+    "preco": 1282950,
+    "potencia": "544 cv",
+    "descricao": "A versão 100% elétrica do Série 7, com tela de cinema traseira de 31 polegadas e direção semiautônoma.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/BMW_7-Series_(G70)_750e_1X7A1895_(Hintergrund_retuschiert).jpg?width=640"
+  },
+  {
+    "id": 5,
+    "nome": "Porsche Cayenne Coupé",
+    "marca": "Porsche",
+    "categoria": "SUV",
+    "ano": 2026,
+    "preco": 950000,
+    "potencia": "353 cv",
+    "descricao": "SUV com linhas de coupé, tração integral e desempenho de esportivo.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/2023_Porsche_Cayenne_Coupé_S_1X7A1676.jpg?width=640"
+  },
+  {
+    "id": 6,
+    "nome": "Mercedes-AMG GT 63 S E Performance",
+    "marca": "Mercedes-Benz",
+    "categoria": "Coupé",
+    "ano": 2025,
+    "preco": 1690900,
+    "potencia": "816 cv",
+    "descricao": "Coupé híbrido de alta performance, com V8 biturbo e tecnologia vinda da Fórmula 1.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/2016_Mercedes-AMG_GT_(C_190)_S_coupe_(2016-03-05)_01.jpg?width=640"
+  },
+  {
+    "id": 7,
+    "nome": "Audi RS e-tron GT performance",
+    "marca": "Audi",
+    "categoria": "Sedã",
+    "ano": 2026,
+    "preco": 1334000,
+    "potencia": "925 cv",
+    "descricao": "Gran turismo 100% elétrico e o Audi de produção mais potente já feito.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi_RS_e-tron_GT_1X7A1874.jpg?width=640"
+  },
+  {
+    "id": 8,
+    "nome": "BMW X7 M60i",
+    "marca": "BMW",
+    "categoria": "SUV",
+    "ano": 2026,
+    "preco": 1187560,
+    "potencia": "530 cv",
+    "descricao": "SUV de sete lugares com motor V8 híbrido, acabamento em cristal e som Bowers & Wilkins.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/BMW_G07_X7_M60i_1X7A7226.jpg?width=640"
+  },
+  {
+    "id": 9,
+    "nome": "Land Rover Defender 110",
+    "marca": "Land Rover",
+    "categoria": "SUV",
+    "ano": 2026,
+    "preco": 844990,
+    "potencia": "350 cv",
+    "descricao": "Ícone off-road reinventado, com motor diesel híbrido, conforto de luxo e tecnologia atual.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Land_Rover_DEFENDER_110_S_ADVENTURE_PACK_(L663)_front.jpg?width=640"
+  },
+  {
+    "id": 10,
+    "nome": "Audi R8 V10 performance",
+    "marca": "Audi",
+    "categoria": "Coupé",
+    "ano": 2021,
+    "preco": 1234990,
+    "potencia": "610 cv",
+    "descricao": "Superesportivo de motor central V10 aspirado, a despedida de uma lenda que já saiu de linha.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Audi_R8_V10_5.2_Front.jpg?width=640"
+  }
+]
