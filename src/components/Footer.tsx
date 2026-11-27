@@ -3,7 +3,7 @@ import { Logo } from './Logo'
 const links = [
   { texto: 'Início', href: '#inicio' },
   { texto: 'Estoque', href: '#estoque' },
-  { texto: 'Modelos de Luxo', href: '#estoque' },
+  { texto: 'Modelos de Luxo', href: '#busca' },
   { texto: 'Sobre', href: '#sobre' },
   { texto: 'Contato', href: '#contato' },
 ]
